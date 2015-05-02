@@ -123,7 +123,7 @@ void readFile(char * fileName)
     if (!in_stream)
     {
         cout << "Could not open file\n";
-        return;
+        exit(0);
     }
     string name, first, next, line, num, second;
 
