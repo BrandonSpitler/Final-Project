@@ -252,6 +252,10 @@ void Graph::travelCar()
                         cout<<"No gas! cant travel unless you find some"<<endl;
                         return;
                     }
+                    for(int s=0;s<vertices.size();s++)
+                    {
+                        cout<<vertices[s].name<<", ";
+                    }
                     cout<<"What area do you want to go to?"<<endl;
                     string inCity;
                     getline(cin,inCity);
